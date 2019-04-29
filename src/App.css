@@ -1,33 +1,80 @@
-.App {
-  text-align: center;
+@media (max-width: 600px) {
+	.panel {
+		width: 100% !important;
+	}
+
+	.panel .inner-container.content {
+		height: unset !important;
+		margin-bottom: 10px;
+	}
+
+	.panel {
+  	margin-bottom: 45px;
+	}
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+.cross-join-steps .owner-column {
+	text-align: center;
+	width: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td, th {
+	padding: 0.4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.cross-join-steps .operator {
+	text-align: center;
+	font-size: 24px;
+	width: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cross-join-steps .dog-column {
+	text-align: center;
+	width: 120px;
+}
+
+.code-block {
+	max-width: 350px;
+}
+
+.removed {
+  opacity: .2;
+}
+
+.removed td {
+	border-color: #ddd;
+}
+
+.removed.next-present td {
+	border-bottom-color: #999;
+}
+
+.lowlight {
+	opacity: .4;
+}
+
+.added {
+	background-color: #e3f7e2;
+}
+
+.panel .inner-container.content {
+	padding: 8px 30px 0px 30px;
+}
+
+.sidebar-text {
+  max-width: 450px;
+}
+
+.panel {
+  border: 0px solid black;
+}
+
+.panel .text.has-text {
+	border-bottom: 0px solid black;
+}
+
+.panel .text {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
