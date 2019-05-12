@@ -460,7 +460,7 @@ const RightOuterJoinSteps = ({ ownersTable, dogsTable }) => {
 				text={
 					<span>
 						Finally, add in any missing rows from the right table.
-						The left right is the table named in the outer join part of the query.
+						The right table is the table named following the OUTER JOIN part of the query.
 						For the added rows the left table columns will be null.
 					</span>
 				}
