@@ -2,7 +2,7 @@
 	"name": "joins_in_steps",
 	"version": "0.1.0",
 	"private": true,
-	"homepage" : "http://www.zindlerb.com/joins-in-steps",
+	"homepage": "http://www.zindlerb.com/joins-in-steps",
 	"dependencies": {
 		"@babel/core": "7.4.3",
 		"@svgr/webpack": "4.1.0",

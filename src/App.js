@@ -542,7 +542,7 @@ class App extends React.Component {
 							In the following examples, the SQL joins are broken down into the steps used to compute them.
 							These steps are not what the database literally does, but they are useful for conceptually understanding joins.
 							The examples will join the owners and dogs tables shown here.
-							For a more traditional and complete breakdown of SQL joins I reccomend the <a href="https://en.wikipedia.org/wiki/Join_(SQL)">join wikipedia page</a>.
+							For a more traditional and complete breakdown of SQL joins I recommend the <a href="https://en.wikipedia.org/wiki/Join_(SQL)">join wikipedia page</a>.
 						</p>
 					</div>
 				</div>
